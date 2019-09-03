@@ -1,0 +1,35 @@
+#hab{
+    width: 46%;
+    margin: 0 2%;
+    height: 100%;
+    float: left;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+#hab h1{
+    height: 50px;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 10px;
+    font-size: calc(1em + 1vw);
+}
+#hab ul{
+    margin-top: 5px;
+    align-items: center;
+    padding-left: 5%;
+}
+#hab li{
+    margin: 5px 0;
+    font-size: calc(1em + 0.5vw);
+}
+@media screen and (max-width: 600px){
+    #hab{
+        width: 96%;
+        margin: 2%;
+    }
+}
