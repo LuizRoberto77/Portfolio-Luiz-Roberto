@@ -10,6 +10,7 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "_comment": "Para Iniciar digite yarn start no cmd",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
